@@ -1,0 +1,61 @@
+/*p::first-letter{
+    color: red;
+    font-size: xx-large;
+} */
+
+/* p::first-line{
+    color: blue;
+} */
+
+/* p::first-letter{
+    color: red;
+    font-size: xx-large;
+} */
+
+
+/* p::selection{
+    background-color: red;
+    color: azure;
+} */
+
+
+/* h1{
+    text-align: center;
+}
+h1::before{
+    content: "******";
+    color: red;
+}
+h1::after{
+    content: "******";
+    color: red;
+} */
+
+
+/* h1{
+    text-align: center;
+    position: relative;
+}
+h1::before{
+    content: "";
+    border: 1px solid gray;
+    position: absolute;
+    left:120px;
+    top:18px;
+    width:460px;
+    border-bottom-style: none; 
+}
+h1::after{
+    content: "";
+    border: 1px solid gray;
+    position: absolute;
+    right:120px;
+    top:18px;
+    width:460px;
+    border-bottom-style: none;
+} */
+
+ /* ul>li::marker{
+    color: red;
+    font-size: larger;
+} */

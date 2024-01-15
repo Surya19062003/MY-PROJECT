@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      h1 {
+        border: 1px solid black;
+        text-align: center;
+        background-color: aqua;
+      }
+      #navbar {
+        border: 1px solid black;
+        background: var(--Color-Yellow, #f8b602);
+        height: 80px;
+        text-align: center;
+        word-spacing: 100px;
+        line-height: 70px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      .navbtn {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        font-size: 18px;
+        transition: color 0.2s ease;
+        margin-left: 50px;
+      }
+      main {
+        border: 1px solid black;
+        display: flex;
+        height: 100vh;
+      }
+      /* child name selector (>) */
+      main > section {
+        border: 1px solid red;
+      }
+      #left {
+        width: 30%;
+      }
+      #right {
+        width: 70%;
+      }
+      footer{
+        color: white;
+        border: 1px solid  blue;
+        background-color: blue;
+      }
+      a{
+        color: white;
+        text-decoration: none;
+      }
+      time{
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- the word which have some meanig both developer and brouser can understand 
+    the tag which will have some meaning -->
+    <header>
+      <h1>TIMES OF INDIAN</h1>
+    </header>
+    <nav id="navbar">
+      <a class="navbtn" href="#">HOME</a>
+      <a class="navbtn" href="#">CRIME</a>
+      <a class="navbtn" href="#">SPORTS</a>
+      <a class="navbtn" href="#">WEATHER</a>
+      </nav>
+    <main>
+      <section id="left">
+        <aside>
+          
+          <p>
+            
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, natus
+            <time>12:50</time> eligendi vero at ipsam tenetur quis sapiente, quasi soluta voluptas
+            impedit! Reprehenderit ullam, fugit architecto nobis temporibus
+            labore modi, excepturi iure adipisci dignissimos perferendis totam
+            dicta? Eveniet provident perspiciatis accusamus fugit saepe
+            cupiditate amet inventore. Dicta dignissimos quod quibusdam
+            doloremque!
+          </p>
+          <details>
+            <summary>ELECTRONICS</summary>
+            <p><mark>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, quam!</mark></p>
+          </details>
+        </aside>
+      </section>
+      <section id="right">
+        <article>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, natus
+            eligendi vero at ipsam tenetur quis sapiente, quasi soluta voluptas
+            impedit! Reprehenderit ullam, fugit architecto nobis temporibus
+            labore modi, excepturi iure adipisci dignissimos perferendis totam
+            dicta? Eveniet provident perspiciatis accusamus fugit saepe
+            cupiditate amet inventore. Dicta dignissimos quod quibusdam
+            doloremque!
+            
+            <figure>
+              <img src="/image/apj.jpeg" alt="apj">
+              <figcaption>fig 1.2</figcaption>
+            </figure>
+          </p>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <p><b>FOR CONTACT :</b></p>
+      <p>Author: SURYAPRAKASH V</p>
+      <p>Phone Number: 6374442643</p>
+      <p>Email:<a href="https://mail.google.com/mail/u/0/#inbox?compose=new">SURYA@gmail.com</a></p>
+      <p>Address:<a href="https://www.google.com/maps/dir/13.0351104,80.216064/12.736418,80.0710804/@12.8250758,79.9667385,9.88z/data=!4m5!4m4!1m1!4e1!1m0!3e0?entry=ttu"> click me</a> </p>
+    </footer>
+   
+  </body>
+</html>

@@ -1,0 +1,15 @@
+#maindiv{
+    border: 15px dashed black;
+    background-image: url(https://cdn.pixabay.com/photo/2024/01/03/07/10/humpback-whale-8484783_640.jpg);
+    height: 100vh;
+    /* background-size: 250px; */
+    background-size: 100%; 
+    /* background-repeat:no-repeat; */
+    /* background-position: top right; */
+    /* background-attachment: fixed; */
+    color: yellow;
+    padding: 100px;
+    background-clip: content-box;
+
+    
+}

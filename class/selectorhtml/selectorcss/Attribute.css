@@ -1,0 +1,32 @@
+img{
+    height: 250px;
+    width: 200px;
+}
+
+
+/* img[alt]{
+    border: 5px solid yellow;
+} */
+/* img[alt="_monkey"]{
+    border: 5px solid yellow;
+} */
+/* (^ = target prefix value) */
+/* img[alt^="sun"]{
+    border: 5px solid yellow;
+} */
+/* ($ = target the suffix value) */
+/* img[alt$="rice"]{
+    border: 5px solid yellow;
+} */
+/* (| = target the -nextvalue) */
+ /* img[alt|="sun"]{
+    border: 5px solid yellow;
+ } */
+ /* (~ = target the space after next value like (second word)) */
+/* img[alt~="orange"]{
+    border: 5px solid yellow;
+} */
+/* (* = target the commaon value of universe) */
+img[alt*="ey"]{
+    border: 5px solid yellow;
+}
